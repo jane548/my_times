@@ -18,6 +18,7 @@ header {
   margin-left: 20px;
 
 }
+
 .mytimes {
   color: MediumAquamarine;
   display: inline-flex;
@@ -36,4 +37,24 @@ header {
   justify-content: space-between;
   margin-top: 24px;
   padding: 0px 10px;
+}
+
+.content {
+  display: flex;
+  border: 1px solid black;
+}
+
+.column.large {
+   width: 630px;
+   border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+  border: 1px solid black;
 }
