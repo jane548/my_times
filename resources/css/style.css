@@ -41,20 +41,26 @@ header {
 
 .content {
   display: flex;
-  border: 1px solid black;
 }
+
 
 .column.large {
    width: 630px;
    border: 1px solid black;
+   margin: 40px 17px 0 0;
+
+
 }
 
 .column.medium {
   width: 300px;
   border: 1px solid black;
+  margin: 40px 17px 0 17px;
+
 }
 
 .column.small {
   width: 240px;
   border: 1px solid black;
+  margin: 40px 17px 0 17px;
 }
