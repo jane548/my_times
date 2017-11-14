@@ -42,7 +42,6 @@ header {
 .content {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
 }
 
 .image-content {
@@ -56,21 +55,18 @@ header {
 
 .column.large {
    width: 630px;
-   border: 1px solid black;
    margin: 40px 17px 0 0;
 
 }
 
 .column.medium {
   width: 300px;
-  border: 1px solid black;
   margin: 40px 17px 0 17px;
 
 }
 
 .column.small {
   width: 240px;
-  border: 1px solid black;
   margin: 40px 17px 0 17px;
 }
 
@@ -81,7 +77,7 @@ header {
   font-size: 30px;
   color: white;
   height: 300px;
-
+  text-align: center;
 }
 
 .lead-story .image-content {
@@ -93,10 +89,12 @@ header {
 
 .fall-cancelled.image-content {
   background-image: url(../images/fall.png);
+  margin-top: 15px;
 }
 
 .pop-culture.image-content {
   background-image: url(../images/cameraman.png);
+  margin-top: 15px;
 }
 
 .cat-ceo.image-content {
@@ -110,13 +108,32 @@ header {
 }
 
 .stories {
-  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .story {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .text-content {
+  height: 250px;
 }
 
 .news-bites {
-  border: 1px solid black;
+}
+
+.text-content {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+h2 {
+  display: block;
 }
