@@ -43,10 +43,6 @@ header {
   justify-content: center;
 }
 
-.image-content {
-  display: flex;
-}
-
 .column {
   display: flex;
   flex-direction: column;
@@ -77,6 +73,7 @@ header {
   color: white;
   height: 300px;
   text-align: center;
+  align-items: center;
 }
 
 .lead-story .image-content {
@@ -84,6 +81,11 @@ header {
   width: 630px;
   font-size: 40px;
   text-align: left;
+}
+
+.lead-story
+.image-content span {
+  margin-left: 20px;
 }
 
 .fall-cancelled.image-content {
@@ -146,6 +148,57 @@ div {
   display: block;
 }
 
-h2 {
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.title {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  display: inline-block;
+  padding: 25px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: black;
+}
+
+.copyright {
   display: block;
+  padding-right: 25px;
+}
+
+.info {
+  height: 80px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
 }
